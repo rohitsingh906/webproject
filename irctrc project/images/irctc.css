@@ -1,0 +1,195 @@
+/* irctc.css */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* irctc.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #0066cc;
+  color: white;
+  margin: 0;
+}
+
+#header {
+  background-color: #e0e0e0;
+  padding: 10px;
+  text-align: right;
+}
+
+#header button {
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#header button a {
+  color: white;
+  text-decoration: none;
+}
+
+#home {
+  background-color: #0066cc;
+  padding: 10px;
+  text-align: center;
+}
+
+#home button {
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#navbar {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar img {
+  height: 50px;
+  margin: 0 10px;
+}
+
+.dropbtn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#pnrandchart {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+#FromtoTO {
+  padding: 20px;
+  text-align: center;
+}
+
+#From, #To, #date {
+  display: inline-block;
+  margin: 10px;
+}
+
+#From input, #To input, #date input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#allclasses, #general, #check, #serachandeasy, #contactdeatils, #ads, #anotherplatform_1, #beaware, #holiday, #footer, #dropfortrain, #howto, #irctcewallet, #forhighlymigratedaggents, #helpandsupport {
+  padding: 20px;
+  text-align: center;
+}
+
+#check label {
+  display: block;
+  margin: 5px;
+}
+
+#search button, #EasyBooking button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+#ads img {
+  max-width: 300px;
+}
+
+#anotherplatform_1 button {
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#holiday img {
+  max-width: 200px;
+  margin: 10px;
+}
+
+#holiday h1, #holiday p {
+  text-align: left;
+}
+
+#footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+#footer a {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+#dropfortrain select, #howto select, #irctcewallet select, #forhighlymigratedaggents select {
+  padding: 8px;
+  margin: 5px;
+}
+
+#helpandsupport button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#irctc-e-wallet select, #irctc-e-wallet optgroup {
+  display: block;
+  margin: 5px;
+}
+
+#irctc-e-wallet optgroup{
+margin-left: 15px;
+}
+
+#irctc-e-wallet optgroup optgroup{
+margin-left: 30px;
+}
